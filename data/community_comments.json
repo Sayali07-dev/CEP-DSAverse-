@@ -1,0 +1,57 @@
+[
+  {
+    "id": "comment-seed-1",
+    "postId": "post-1",
+    "author": "Tanvi Joshi",
+    "authorAvatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=100&auto=format&fit=crop&q=80",
+    "authorRole": "2nd Year Engineering Student",
+    "content": "Drawing recursion trees on paper was a complete game changer for me too! Especially with tree traversals and Tower of Hanoi.",
+    "createdAt": "2026-10-22T08:00:00.000Z",
+    "timeAgo": "3 hours ago",
+    "likes": 5
+  },
+  {
+    "id": "comment-seed-2",
+    "postId": "post-1",
+    "author": "Harsh Vardhan",
+    "authorAvatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&auto=format&fit=crop&q=80",
+    "authorRole": "Competitive Programmer",
+    "content": "Another tip: always keep track of call stack memory limit O(H) where H is recursion depth. If H = N, beware of stack overflow!",
+    "createdAt": "2026-10-22T09:15:00.000Z",
+    "timeAgo": "2 hours ago",
+    "likes": 3
+  },
+  {
+    "id": "comment-seed-3",
+    "postId": "post-2",
+    "author": "Sameer Rao",
+    "authorAvatar": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?w=100&auto=format&fit=crop&q=80",
+    "authorRole": "PICT Alum",
+    "content": "The low + (high - low) / 2 overflow bug was an actual question in my technical coding round! Crucial trick to know.",
+    "createdAt": "2026-10-22T06:30:00.000Z",
+    "timeAgo": "4 hours ago",
+    "likes": 8
+  },
+  {
+    "id": "comment-seed-4",
+    "postId": "post-3",
+    "author": "Pooja Patil",
+    "authorAvatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=100&auto=format&fit=crop&q=80",
+    "authorRole": "3rd Year ENTC",
+    "content": "Marking nodes visited immediately when pushing into the queue is the #1 trick to prevent memory limit exceeded (MLE) in BFS.",
+    "createdAt": "2026-10-21T18:00:00.000Z",
+    "timeAgo": "1 day ago",
+    "likes": 4
+  },
+  {
+    "id": "comment-seed-5",
+    "postId": "post-4",
+    "author": "Vikram Shinde",
+    "authorAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&auto=format&fit=crop&q=80",
+    "authorRole": "SE Computer Student",
+    "content": "Sliding window with dynamic size (e.g. Longest Substring Without Repeating Characters) becomes trivial once you track frequency maps.",
+    "createdAt": "2026-10-21T14:20:00.000Z",
+    "timeAgo": "1 day ago",
+    "likes": 6
+  }
+]

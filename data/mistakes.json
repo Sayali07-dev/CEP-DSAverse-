@@ -1,0 +1,35 @@
+[
+  {
+    "id": "m-1",
+    "problemId": "binary-search",
+    "problemTitle": "Binary Search Rotated Range",
+    "topic": "Searching",
+    "mistakeType": "Boundary Condition",
+    "date": "2026-08-12",
+    "whatWentWrong": "Used low < high instead of low <= high. Missed searching single-element subarray when boundaries converged.",
+    "whatILearned": "When search boundaries [low..high] are inclusive, the termination condition must be low <= high.",
+    "reviewed": false
+  },
+  {
+    "id": "m-2",
+    "problemId": "subsets",
+    "problemTitle": "Subsets Generation Backtracking",
+    "topic": "Recursion",
+    "mistakeType": "Logic Error",
+    "date": "2026-08-10",
+    "whatWentWrong": "Forgot to call path.pop_back() after the recursive explore branch, causing unwanted elements to leak into subsequent branches.",
+    "whatILearned": "Every choose step must have an exact symmetric unchoose rollback step when returning from recursive exploration.",
+    "reviewed": true
+  },
+  {
+    "id": "m-3",
+    "problemId": "two-sum",
+    "problemTitle": "Two Sum Complement Lookup",
+    "topic": "Hashing",
+    "mistakeType": "Off-by-one",
+    "date": "2026-08-08",
+    "whatWentWrong": "Inserted current element into hash map BEFORE searching for its complement, causing an element to pair with itself when target == 2 * val.",
+    "whatILearned": "Check hash map for complement (target - nums[i]) BEFORE inserting the current number into the table.",
+    "reviewed": true
+  }
+]
